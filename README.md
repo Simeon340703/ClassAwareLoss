@@ -1,5 +1,5 @@
 # ClassAwareLoss
-This code is a PyTorch implementation of ClassAwareLoss used in the "Class-aware fish species recognition using deep learning for an imbalanced dataset" paper. https://www.mdpi.com/1424-8220/22/21/8268
+This code is a PyTorch implementation of ClassAwareLoss used in the [Class-aware fish species recognition using deep learning for an imbalanced dataset]( https://www.mdpi.com/1424-8220/22/21/8268)
 
 Due to sponsorship restrictions, I cannot share code or processed datasets. Like the focal loss function, you can use the class-aware loss as a general classification loss. You can also use the weighting terms for existing localization loss, as shown in the equation.  
 
