@@ -10,8 +10,10 @@ where Lclsa is class-aware classification loss and Lloca is class-aware localiza
 is the number of training instances per species, n is the total training samples, and η is a
 hyper-parameter. We use η = 4 for this training. ns << n.
 
+If you find this code useful, please cite:
+
 ```bash
-If you find this work useful, please cite:
+
 @article{alaba2022class,
   title={Class-aware fish species recognition using deep learning for an imbalanced dataset},
   author={Alaba, Simegnew Yihunie and Nabi, MM and Shah, Chiranjibi and Prior, Jack and Campbell, Matthew D and Wallace, Farron and Ball, John E and Moorhead, Robert},
