@@ -8,7 +8,7 @@ Due to sponsorship restrictions, I cannot share the complete code or datasets. T
 
 where Lclsa is class-aware classification loss and Lloca is class-aware localization loss. ns
 is the number of training instances per species, n is the total training samples, and η is a
-hyper-parameter. We use η = 4 for this training. ns << n.
+hyper-parameter. We use η = 4 for this training. ns << n. Lcls and Lloc can be any classification and localization losses. 
 
 If you find this code useful, please cite:
 
