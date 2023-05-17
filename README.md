@@ -1,7 +1,7 @@
 # ClassAwareLoss
 This code is a PyTorch implementation of ClassAwareLoss proposed in the [Class-aware fish species recognition using deep learning for an imbalanced dataset]( https://www.mdpi.com/1424-8220/22/21/8268) (Published in MDPI Sensors journal, 2022).
 
-Due to sponsorship restrictions, I cannot share the complete code or datasets. The loss was proposed to handle class imbalance issues in a dataset. However, like the focal loss function, you can use the class-aware loss as a general classification loss. As shown in the equation, you can also use the weighting terms for existing localization loss. The loss penalizes samples of the dominant class, gives more weight to the minority class, and updates the weights of each class based on the occurrence of each class instance to reduce the biasedness of the model prediction towards the dominant class. 
+Due to sponsorship restrictions, I cannot share the complete code or datasets. The loss was proposed to handle class imbalance issues in a dataset. Moreover, like the focal loss function, you can use the class-aware loss as a general classification loss. As shown in the equation, you can also use the weighting terms for existing localization loss. The loss penalizes samples of the dominant class, gives more weight to the minority class, and updates the weights of each class based on the occurrence of each class instance to reduce the biasedness of the model prediction towards the dominant class. 
 
 ![equations](https://github.com/Simeon340703/ClassAwareLoss/assets/50320484/279d8170-4bcb-4087-9d66-0dc118b2ca13),
 
